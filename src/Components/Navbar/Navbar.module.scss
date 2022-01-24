@@ -1,0 +1,110 @@
+@mixin icon{
+  vertical-align: middle;
+  margin: 0 15px 0 10px;
+
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+
+
+.nav{
+  position: fixed;
+  width: 230px;
+  left: 0;
+  z-index: 999;
+  background-color: #ffff;
+  height: calc(100% + 60px);
+  &Item{
+    box-sizing: content-box;
+    color: #444;
+    display: block;
+    line-height: 100%;
+    padding: 5px 0 5px;
+    background-color: white;
+    border-left: 0 solid #B8938E;
+    transition: background-color, border-left-width;
+    transition-duration: 0.2s;
+    &:hover {
+      cursor: pointer;
+      background-color: #F5F5F5;
+      border-left: 4px #B8938E solid;
+    }
+  }
+
+}
+img{
+  margin: 0 10px;
+}
+.logoInner{
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  box-sizing: content-box;
+  min-height: 90px;
+  font-weight: 200;
+  line-height: 100%;
+  width: 180px !important;
+
+  &:hover{
+    cursor: pointer;
+  }
+
+}
+.logo{
+  padding: 30px 25px 30px;
+  border-bottom: 1px solid #CAD5CA;
+  margin-bottom: 20px;
+}
+h1{
+  line-height: 38px;
+  font-family: 'Roboto-Light', sans-serif;
+font-weight: 200;
+  font-size: 30px;
+  color: #211A1D ;
+  letter-spacing: -0.9px;
+}
+ul{
+  padding: 0;
+  margin: 0
+}
+li{
+  list-style-type: none;
+ &.navItem {
+   font-size: 17px;
+   display: block;
+ }
+}
+.smallText{
+  font-family: 'Roboto-Light', sans-serif;
+  font-size: 15px;
+  color: #FF6047;
+  text-transform: uppercase;
+  letter-spacing: 0.01px;
+
+}
+a{
+  width: 230px;
+  display: block;
+  height: 100%;
+}
+.linkItem {
+
+  &Text{
+    vertical-align: middle;
+  }
+}
+.personIcon{
+  color: #FF7E6B;
+  @include icon;
+}
+.projectsIcon{
+  color: #2FDA90;
+  @include icon;
+
+}
+.skillsIcon{
+  color: #8C5E58;
+  @include icon;
+
+}
