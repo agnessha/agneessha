@@ -18,19 +18,30 @@
 html{
     font-family: 'MyFont', sans-serif;
 }
+body{
+    box-sizing: border-box;
+}
 section{
 
 }
+#top{
+    height: 100%;
+}
+#aboutMe {
+    background: linear-gradient(#FFDCD6, transparent 1px), linear-gradient(90deg, #FFDCD6, transparent 1px);
+    background-size: 10px 10px;
+    background-position: center center;
+    background-size: 2em 2em;
+    background-color: #fff;
 
-#aboutMe{
-    background-color: #FF8370;
     height: 700px;
+    margin-left: 230px;
 }
 #projects{
     height: 599px;
-    background-color: #A8F0D1;
+    background-color: #6C7375;
 }
 #skills{
     height: 700px;
-    background-color: #A16F68;
+    background-color: #BFB7B6;
 }
