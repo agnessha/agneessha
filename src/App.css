@@ -28,7 +28,7 @@ section{
     height: 100%;
 }
 #aboutMe {
-    background: linear-gradient(#FFDCD6, transparent 1px), linear-gradient(90deg, #FFDCD6, transparent 1px);
+    background: linear-gradient(#EED3D5, transparent 1px), linear-gradient(90deg, #EED3D5, transparent 1px);
     background-size: 10px 10px;
     background-position: center center;
     background-size: 2em 2em;

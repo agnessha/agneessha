@@ -10,6 +10,9 @@ const Top = (props) => {
             <div className={s.cube}></div>
             <div className={s.cube}></div>
             <div className={s.cube}></div>
+            <div className={s.cube}></div>
+            <div className={s.cube}></div>
+
         </div>
     )
 }

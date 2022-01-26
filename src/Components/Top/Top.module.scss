@@ -11,9 +11,9 @@
 //}
 /* ============= Animation background ========= */
 .background {
-  background: linear-gradient(132deg, #91171F, #2C353A, #212335);
+  background: linear-gradient(132deg, #5A2328, #8A7E72, #212335);
   background-size: 400% 400%;
-  animation: Gradient 15s ease infinite;
+  animation: Gradient 10s ease infinite;
   position: relative;
   height: 100vh;
   width: 100%;
@@ -30,7 +30,7 @@
   border: solid 1px #D7D4E4;
   transform-origin: top left;
   transform: scale(0) rotate(0deg) translate(-50%, -50%);
-  animation: cube 10s ease-in forwards infinite;
+  animation: cube 8s ease-in forwards infinite;
 }
 .cube:nth-child(2n) {
   border-color: #FFF ;
@@ -59,6 +59,16 @@
   animation-delay: 10s;
   left: 50vw;
   top: 10vh;
+}
+.cube:nth-child(7) {
+  animation-delay: 7s;
+  left: 58vw;
+  top: 35vh;
+}
+.cube:nth-child(8) {
+  animation-delay: 1s;
+  left: 20vw;
+  top: 70vh;
 }
 
 /* Animate Background*/

@@ -1,8 +1,9 @@
 .aboutHeader{
-  background-color: #91171F;
+  background-color: #5A2328;
 
 }
 h3{
+  color: #F6F4F5;
   font-weight: 200;
   font-size: 2.92rem;
   line-height: 3.212rem;
@@ -11,7 +12,24 @@ h3{
   text-transform: uppercase;
 }
 .aboutInner{
+  width: 80%;
+  margin: 40px auto;
+  color: #32110B;
 
-
-
+  &Title{
+    font-size: 2.5em;
+    color: #5A2328;
+    border-left: 4px solid #5A2328;
+    padding: 0 0 0 30px;
+    margin-bottom: 30px;
+  }
+  &Text{
+    font-size: 1.68em;
+    line-height: 1.8em;
+    padding-bottom: 20px;
+  }
+  &TextSecond{
+    font-size: 1.68em;
+    line-height: 1.8em;
+  }
 }

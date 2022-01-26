@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from "./Components/Navbar/Navbar";
-import SliderContainer from "./Components/About/Slider/SliderContainer";
 import AboutContainer from "./Components/About/AboutContainer";
 import Top from "./Components/Top/Top";
 
@@ -10,9 +9,8 @@ function App() {
     <div className="App">
         <Navbar />
         <section id="top">
-        <SliderContainer />
+            <Top />
         </section>
-        <Top />
         <section id="aboutMe">
             <AboutContainer />
         </section>
