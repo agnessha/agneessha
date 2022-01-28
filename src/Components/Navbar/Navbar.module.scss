@@ -9,7 +9,7 @@
 
 
 
-.nav{
+.nav {
   position: fixed;
   width: 230px;
   left: 0;
@@ -17,7 +17,8 @@
   background-color: #ffff;
   height: calc(100% + 60px);
   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
-  &Item{
+
+  &Item {
     box-sizing: content-box;
     color: #444;
     display: block;
@@ -27,6 +28,7 @@
     border-left: 0 solid #B8938E;
     transition: background-color, border-left-width;
     transition-duration: 0.2s;
+
     &:hover {
       cursor: pointer;
       background-color: #F5F5F5;
@@ -34,9 +36,6 @@
     }
   }
 
-}
-img{
-  margin: 0 10px;
 }
 .logoInner{
   background-color: #ffffff;

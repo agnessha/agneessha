@@ -3,6 +3,8 @@ import './App.css';
 import Navbar from "./Components/Navbar/Navbar";
 import AboutContainer from "./Components/About/AboutContainer";
 import Top from "./Components/Top/Top";
+import ProjectsContainerMap from "./Components/Projects/ProjectsContainer";
+import SkillContainer from "./Components/Skills/SkillContainer";
 
 function App() {
   return (
@@ -14,8 +16,12 @@ function App() {
         <section id="aboutMe">
             <AboutContainer />
         </section>
-        <section id="projects" > 2 </section>
-        <section id="skills" />
+        <section id="projects" >
+            <ProjectsContainerMap />
+        </section>
+        <section id="skills" >
+            <SkillContainer />
+        </section>
 
     </div>
   );
