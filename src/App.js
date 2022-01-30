@@ -16,9 +16,9 @@ function App() {
         <section id="aboutMe">
             <AboutContainer />
         </section>
-        <section id="projects" >
-            <ProjectsContainerMap />
-        </section>
+        {/*<section id="projects" >*/}
+        {/*    <ProjectsContainerMap />*/}
+        {/*</section>*/}
         <section id="skills" >
             <SkillContainer />
         </section>

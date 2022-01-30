@@ -1,0 +1,51 @@
+.skillsTitle {
+  background-color: #5B2E48;
+}
+
+h3 {
+  color: #F6F4F5;
+  font-weight: 200;
+  font-size: 2.92rem;
+  line-height: 3.212rem;
+  margin: 0;
+  padding: 30px 40px;
+  text-transform: uppercase;
+}
+
+.skillsItems {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.skillsItem {
+  background-color: #FFFFFF;
+  width: 90%;
+  margin: 0 auto 60px;
+  box-shadow: 0 0 13px -4px #000000;
+}
+
+.skillsItemTitle {
+  border-bottom: 1px solid #ddd;
+  font-weight: 300;
+  font-size: 2.28rem;
+  line-height: 2.508rem;
+  margin: 1.14rem 0 0.912rem 0;
+  padding: 20px 0 20px 15px;
+}
+
+.item {
+  display: inline-block;
+  margin: 10px 50px;
+}
+.item img {
+  width: 100px;
+}
+.itemText {
+  text-align: center;
+  padding: 20px 0 10px;
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=Skills.module.css.map */

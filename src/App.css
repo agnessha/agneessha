@@ -34,14 +34,20 @@ section{
     background-size: 2em 2em;
     background-color: #fff;
 
-    height: 700px;
+    height: auto;
     margin-left: 230px;
 }
 #projects{
-    height: 599px;
+    height: auto;
     background-color: #6C7375;
 }
 #skills{
-    height: 700px;
-    background-color: #BFB7B6;
+    background: linear-gradient(#C5D4C4, transparent 1px), linear-gradient(90deg, #C5D4C4, transparent 1px);
+    background-size: 10px 10px;
+    background-position: center center;
+    background-size: 2em 2em;
+    background-color: #fff;
+
+    height: auto;
+    margin-left: 230px;
 }
