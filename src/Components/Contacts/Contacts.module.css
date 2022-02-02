@@ -1,0 +1,50 @@
+.contacts {
+  padding-bottom: 50px;
+}
+
+.contactsTitle {
+  background-color: #643302;
+}
+
+h3 {
+  color: #F6F4F5;
+  font-weight: 200;
+  font-size: 2.92rem;
+  line-height: 3.212rem;
+  margin: 0;
+  padding: 30px 40px;
+  text-transform: uppercase;
+}
+
+.contactsInner {
+  margin: 60px auto;
+  text-align: center;
+}
+
+.contact {
+  display: inline-block;
+  background-color: #FFFFFF;
+  margin: 0 70px;
+  box-shadow: 0 0 13px -4px #000000;
+  text-align: center;
+}
+.contact img {
+  width: 200px;
+  margin: 15px;
+}
+.contact a {
+  text-decoration: none;
+  text-align: center;
+  padding: 20px 0 10px;
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+}
+.contactTitle {
+  border-top: 1px solid #CAC8D0;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+/*# sourceMappingURL=Contacts.module.css.map */

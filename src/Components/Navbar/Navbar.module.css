@@ -110,4 +110,13 @@ a {
   cursor: pointer;
 }
 
+.contactsIcon {
+  color: #594A36;
+  vertical-align: middle;
+  margin: 0 15px 0 10px;
+}
+.contactsIcon:hover {
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=Navbar.module.css.map */

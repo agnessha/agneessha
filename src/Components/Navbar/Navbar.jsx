@@ -4,6 +4,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import PersonIcon from '@mui/icons-material/Person';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import SchoolIcon from '@mui/icons-material/School';
+import ContactMailIcon from '@mui/icons-material/ContactMail';
 
 const Navbar = (props) => {
 
@@ -44,6 +45,14 @@ const Navbar = (props) => {
                             <SchoolIcon sx={{ fontSize: 30 }} className={s.skillsIcon}/>
                             <span className={s.linkItemText}>
                             Skills
+                            </span>
+                        </Link>
+                    </li>
+                    <li className={s.navItem}>
+                        <Link activeClass={s.linkItem} to="contacts" spy={true} smooth={true} offset={-70} duration={500}>
+                            <ContactMailIcon sx={{ fontSize: 30 }} className={s.contactsIcon}/>
+                            <span className={s.linkItemText}>
+                            Contacts
                             </span>
                         </Link>
                     </li>

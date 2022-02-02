@@ -5,6 +5,7 @@ import AboutContainer from "./Components/About/AboutContainer";
 import Top from "./Components/Top/Top";
 import ProjectsContainerMap from "./Components/Projects/ProjectsContainer";
 import SkillContainer from "./Components/Skills/SkillContainer";
+import ContactsContainer from "./Components/Contacts/ContactsContainer";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
         {/*</section>*/}
         <section id="skills" >
             <SkillContainer />
+        </section>
+        <section id="contacts">
+            <ContactsContainer />
         </section>
 
     </div>
