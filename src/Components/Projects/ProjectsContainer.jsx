@@ -10,8 +10,6 @@ const ProjectsContainer = (props) => {
 
     return (
         <Projects cards={props.cards}
-                  showing={props.showing}
-                  showingFun={props.showingFun}
                   isShowing={props.isShowing}/>
     )
 }
@@ -19,17 +17,10 @@ const ProjectsContainer = (props) => {
 let mapStateToProps = (state) => {
     return {
         cards: state.projects.cards,
-        showing: state.projects.showing
     }
 }
 let mapDispatchToProps = (dispatch) => {
     return {
-        showingFun: () => {
-            dispatch(changeCardClass())
-        },
-        showFun: (id, show) => {
-            dispatch(changeshow(id, show))
-        },
         isShowing: (id) => {
             dispatch(isShowing(id))
         }

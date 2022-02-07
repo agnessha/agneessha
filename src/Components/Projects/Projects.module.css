@@ -1,171 +1,35 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900);
-body {
-  background: #dce1df;
-  color: #4f585e;
-  font-family: "Source Sans Pro", sans-serif;
-  text-rendering: optimizeLegibility;
+.projectsTitle {
+  background-color: #625E6E;
 }
 
-a.btn {
-  background: #0096a0;
-  border-radius: 4px;
-  box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.25);
-  color: #ffffff;
-  display: inline-block;
-  padding: 6px 30px 8px;
-  position: relative;
-  text-decoration: none;
-  transition: all 0.1s 0s ease-out;
-}
-
-.noTouch a.btn:hover {
-  background: #00a2ad;
-  box-shadow: 0px 8px 2px 0 rgba(0, 0, 0, 0.075);
-  transform: translateY(-2px);
-  transition: all 0.25s 0s ease-out;
-}
-
-.noTouch a.btn:active,
-a.btn:active {
-  background: #008a93;
-  box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.25);
-  transform: translate3d(0, 1px, 0);
-  transition: all 0.025s 0s ease-out;
-}
-
-div.cards {
-  margin: 80px auto;
-  max-width: 960px;
-  text-align: center;
-}
-
-div.card {
-  background: #ffffff;
-  display: inline-block;
-  margin: 8px;
-  max-width: 300px;
-  perspective: 1000px;
-  position: relative;
-  text-align: left;
-  transition: all 0.3s 0s ease-in;
-  width: 300px;
-  z-index: 1;
-}
-div.card img {
-  max-width: 300px;
-}
-div.card .card__imageHolder {
-  background: rgba(0, 0, 0, 0.1);
-  height: 0;
-  padding-bottom: 75%;
-}
-div.card div.cardTitle {
-  background: #ffffff;
-  padding: 6px 15px 10px;
-  position: relative;
-  z-index: 0;
-}
-div.card div.cardTitle a.toggleInfo {
-  border-radius: 32px;
-  height: 32px;
-  padding: 0;
-  position: absolute;
-  right: 15px;
-  top: 10px;
-  width: 32px;
-}
-div.card div.cardTitle a.toggleInfo span {
-  background: #ffffff;
-  display: block;
-  height: 2px;
-  position: absolute;
-  top: 16px;
-  transition: all 0.15s 0s ease-out;
-  width: 12px;
-}
-div.card div.cardTitle a.toggleInfo span.left {
-  right: 14px;
-  transform: rotate(45deg);
-}
-div.card div.cardTitle a.toggleInfo span.right {
-  left: 14px;
-  transform: rotate(-45deg);
-}
-div.card div.cardTitle h2 {
-  font-size: 24px;
-  font-weight: 700;
-  letter-spacing: -0.05em;
+h3 {
+  color: #F6F4F5;
+  font-weight: 200;
+  font-size: 2.92rem;
+  line-height: 3.212rem;
   margin: 0;
-  padding: 0;
+  padding: 30px 40px;
+  text-transform: uppercase;
 }
-div.card div.cardTitle h2 small {
-  display: block;
-  font-size: 18px;
-  font-weight: 600;
-  letter-spacing: -0.025em;
-}
-div.card div.cardDescription {
-  padding: 0 15px 10px;
-  position: relative;
-  font-size: 14px;
-}
-div.card div.cardActions {
-  box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.075);
-  padding: 10px 5px 20px;
+
+.project {
+  background-color: #FFFFFF;
+  margin: 20px 40px;
+  box-shadow: 0 0 13px -4px #000000;
   text-align: center;
+  width: 300px;
+  padding: 20px;
 }
-div.card div.cardFlap {
-  background: #d9d9d9;
-  position: absolute;
-  width: 100%;
-  transform-origin: top;
-  transform: rotateX(-90deg);
-}
-div.card div.flap1 {
-  transition: all 0.3s 0.3s ease-out;
-  z-index: -1;
-}
-div.card div.flap2 {
-  transition: all 0.3s 0s ease-out;
-  z-index: -2;
+.projectCards {
+  margin: 20px auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
 }
 
-div.cards.showing div.card {
-  cursor: pointer;
-  opacity: 0.6;
-  transform: scale(0.88);
-}
-
-.noTouch div.cards.showing div.card:hover {
-  opacity: 0.94;
-  transform: scale(0.92);
-}
-
-div.card.show {
-  opacity: 1 !important;
-  transform: scale(1) !important;
-}
-div.card.show div.cardTitle a.toggleInfo {
-  background: #ff6666 !important;
-}
-div.card.show div.cardTitle a.toggleInfo span {
-  top: 15px;
-}
-div.card.show div.cardTitle a.toggleInfo span.left {
-  right: 10px;
-}
-div.card.show div.cardTitle a.toggleInfo span.right {
-  left: 10px;
-}
-div.card.show div.cardFlap {
-  background: #ffffff;
-  transform: rotateX(0deg);
-}
-div.card.show div.flap1 {
-  transition: all 0.3s 0s ease-out;
-}
-div.card.show div.flap2 {
-  transition: all 0.3s 0.2s ease-out;
+.Hide {
+  display: none;
 }
 
 /*# sourceMappingURL=Projects.module.css.map */

@@ -39,7 +39,14 @@ section{
 }
 #projects{
     height: auto;
-    background-color: #6C7375;
+    margin-left: 230px;
+
+    background: linear-gradient(#C5D4C4, transparent 1px), linear-gradient(90deg, #C5D4C4, transparent 1px);
+    background-size: 10px 10px;
+    background-position: center center;
+    background-size: 2em 2em;
+    background-color: #fff;
+
 }
 #skills{
     background: linear-gradient(#C5D4C4, transparent 1px), linear-gradient(90deg, #C5D4C4, transparent 1px);

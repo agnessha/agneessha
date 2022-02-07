@@ -1,0 +1,29 @@
+
+
+
+.projectDetailsHide{
+    display:none;
+
+}
+.projectDetails {
+    display: block;
+    z-index: 9999;
+    position: relative;
+    background-color: red;
+    margin: 0 auto;
+    height: 433px;
+    width: 340px;
+    top: -453px;
+    animation-duration: 3s;
+    animation-name: slide;
+}
+
+@keyframes slide {
+    from {
+        display: none;
+    }
+
+    to {
+        display: block;
+    }
+}

@@ -5,51 +5,54 @@ import './Projects.css'
 const Projects = (props) => {
     console.log(props)
 
-    let zindex = 10;
+    let notShowing = 'projectDetailsHide'
+    let isShowing = 'projectDetails'
+
 
     return (
-        <div className={s.cards + ' ' + props.showing}>
-            {props.cards.map(c => {
-
-                return (
-
-                        <div className={c.isShowing ? s.card + ' ' + c.show : s.card} style={{zIndex: zindex}}
-                             onClick={() => {
-                            props.isShowing(c.id)
-                            props.showingFun();
-                        }}>
-                            <div className={s.card__imageHolder}>
-                                <img className={s.card__image} src="https://source.unsplash.com/300x225/?wave"
-                                     alt="wave"/>
-                            </div>
-                            <div className={s.cardTitle}>
-                                <a href="" className={s.toggleInfo + '' + s.btn}>
-                                    <span className={s.left}></span>
-                                    <span className={s.right}></span>
-                                </a>
-                                <h2>
-                                    Card title
-                                    <small>Image from unsplash.com</small>
-                                </h2>
-                            </div>
-                            <div className={s.cardFlap + '' + s.flap1}>
-                                <div className={s.cardDescription}>
-                                    This grid is an attempt to make something nice that works on touch devices. Ignoring
-                                    hover
-                                    states when they're not available etc.
+        <div className={s.projects}>
+            <div className={s.projectsTitle}>
+                <h3>
+                    Projects
+                </h3>
+            </div>
+            <div className={s.projectCards}>
+                {props.cards.map(c => {
+                    return (
+                        <div>
+                            <div className={s.project}>
+                                <img className={s.projectImg} src={c.img} alt=""/>
+                                <div className={s.projectTitle}>
+                                    {c.title}
                                 </div>
-                                <div className={s.cardFlap + '' + s.flap2}>
-                                    <div className={s.cardActions}>
-                                        <a  className={s.btn}>Read more
-                                        </a>
-                                    </div>
+                                <div className={s.projectSubTitle}>
+                                    {c.subTitle}
                                 </div>
+                                <div className={s.projectBtn}>
+                                    <button onClick={() => {
+                                        props.isShowing(c.id)
+                                    }} className={s.btn}>
+                                        Show more
+                                    </button>
+                                </div>
+
+                            </div>
+                            <div className={c.isShowing ? isShowing : notShowing}>
+                                <ul>
+                                    {c.details.map(d => {
+                                        console.log(c.details)
+                                        return (
+                                            <li>
+                                                {d}
+                                            </li>
+                                        )
+                                    })}
+                                </ul>
                             </div>
                         </div>
-
-                )
-            })}
-
+                    )
+                })}
+            </div>
 
         </div>
     )
